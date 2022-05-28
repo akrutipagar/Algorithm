@@ -6,26 +6,26 @@ TECHNOLOGIES USED
 
 Web Technologies
 
-HTML,
+1)HTML
 
-CSS,
+2)CSS
 
-JAVA SCRIPT,
+3)JAVA SCRIPT
 
-FLASK
+4)FLASK
 
 
 
 
 Machine Learning Library In Python
 
-PANDAS,
+1)pandas
 
-NUMPY,
+2)numpy
 
-Requests
+3)Requests
 
-SK-LEARN.
+4)Sklearn.
 
 
 REQUIREMENTS

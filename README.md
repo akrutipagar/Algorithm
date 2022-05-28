@@ -21,7 +21,9 @@ SK-LEARN.
 REQUIREMENTS
 Python-3,pip,virtualenv
 
-SET TO SET-UP
+STEPS FOR SET-UP
+
+
 1)Download zip file 
 
 2)Extract files  

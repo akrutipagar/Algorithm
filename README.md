@@ -26,49 +26,18 @@ SET TO SET-UP
 
 2)Extract files  
 
-3)Go to command prompt  
+3)Create Virtual environment
 
-3) {a}(FOR WINDOWS) virtualenv project(give any name of your choice)
+4)Install all python libraries.
 
-3){b} project/Scripts/Activate
+5)Go for the location of extracted files
 
-VIRTUAL ENVIRONMENT GETS ACTIVATED,The command prompt will look like this:
+6)Run command python (main .py file)
 
-3){c} (project) C:\\....
+7)http:// address will be displayed 
 
-Then go to location where the zip files are extracted.Here I consider downloads.
+8)Copy address and add /rec at the end and run
 
-write command:
-
-
-3){d}cd downloads
-
-
-The command prompt will look like this:
-
-(project)C"//.... download>
-
-Go for folder where the files are located
-
-3){e} cd Algorithm-master
-
-Command prompt will look like this:
-
-(project) C:\\.....downloads\Algorithm-master>
-
-To run the app,check for .py files 
-
-3){f} dir 
-
-This Will Give The directory of all files in folder
-
-3{g} python recommendation_book.py 
-
-Command Prompt will give activation signal and http://127.0.0.1:8000 address 
-
-To run The web Copy the address and add /rec to get the output display
-
-http://127.0.0.1:8000/rec    (/rec beacuse html file is saved by this name)
 
 
 

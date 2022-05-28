@@ -5,20 +5,31 @@ This project is recommendation engine which uses user-item collaborative filteri
 TECHNOLOGIES USED
 
 Web Technologies
+
 HTML,
+
 CSS,
+
 JAVA SCRIPT,
+
 FLASK
 
 
 
+
 Machine Learning Library In Python
+
 PANDAS,
+
 NUMPY,
+
 Requests
+
 SK-LEARN.
 
+
 REQUIREMENTS
+
 Python-3,pip,virtualenv
 
 STEPS FOR SET-UP
@@ -28,17 +39,19 @@ STEPS FOR SET-UP
 
 2)Extract files  
 
-3)Create Virtual environment
+3)Create Virtual environment(For windows virtualenv name_of_environment (any))
 
-4)Install all python libraries.
+4)Activate the virtual environment.( For windows name_of_environment/Scripts/Activate)
 
-5)Go for the location of extracted files
+5)Install all python libraries.
 
-6)Run command python (main .py file)
+6)Go for the location of extracted files
 
-7)http:// address will be displayed 
+7)Run command python (main .py file)
 
-8)Copy address and add /rec at the end and run
+8)http:// address will be displayed 
+
+9)Copy address and add /rec at the end and run
 
 
 

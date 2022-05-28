@@ -46,7 +46,7 @@ STEPS FOR SET-UP
 
 4)Activate the virtual environment.( For windows name_of_environment/Scripts/Activate)
 
-5)Install all python libraries.
+5)Install all python libraries.   (pandas,flask,numpy,requests,Ipython,sklearn)
 
 6)Go for the location of extracted files
 

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script defer src="../templates/js/lib/fontawesome-all.min.js"></script>
+  <link rel="stylesheet" href="../templates/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../templates/css/style.css">
+  <title>Books Recommendation Engine</title>
+</head>
+
+<body data-spy="scroll" data-target=".site-nav" data-offset="55">
+
+  <header id="page-hero" class="site-header">
+    <nav  class="site-nav family-sans navbar text-uppercase navbar-expand-md  navbar-dark fixed-top ">
+
+    <div class="container-fluid">   
+        <a class="navbar-brand" href="#page-hero"><i class="fas fa-cube"></i>&nbsp;Recommender</a>
+        
+        <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#myTogglerNav"
+        aria-controls="#myTogglerNav" aria-label="Toggle Navigation"        
+        ><span class="navbar-toggler-icon"></span></button>
+        
+        
+        
+    </div>  <!-- container -->
+    </nav>
+
+    <section class="layout-hero text-light text-center d-flex align-items-center ">
+      <div class="container">
+        <div class="row justify-content-center">
+        <div class="column justify-content-left">
+          <form method="POST"> 
+            <div class="form-group">
+                  <label><h2><b><font face="Times" size="15px" color="white">BOOKS RECOMMENDATION ENGINE<b></h2></label>
+            </div>
+            <div class="form-group">
+               <label><p><h3><font face="Times" color="white">TYPE CORRECT BOOK'S NAME TO GET RECOMMENDATIONS!</h3></p></label>
+               
+              </div>
+            <div class="form-group text-left">
+              <label for="query">BOOK NAME:</label>
+              <input type="text" class="form-control" id="query" name="query" value="{{query}}" />
+            </div>
+            <div class="form-group text-left">
+              <input type="submit" class="btn btn-info" value="Get Recommendations">
+            </div>
+            <div class="form-group text-left">
+                <label class="bgc"><p><h1>RECOMMENDED BOOKS:</h1></p></label>
+                <table > {{ recommendations|safe }}</table>
+            </div>
+           
+           <div class="form-group text-left">
+              <label class="style bgcolor:red"><p>&nbsp; </p></label>
+         </div>
+         <div class="form-group text-left">
+            <label class="style bgcolor:red"><p>&nbsp;</p></label>
+       </div>
+       <div class="form-group text-left">
+          <label class="style bgcolor:red"><p>&nbsp;</p></label>
+     </div>
+              
+          </div>
+          </form>
+        </div>
+      </div>
+      
+      
+      
+      
+    </section>
+
+
+
+
+  </header>
+
+
+  
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/lib/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

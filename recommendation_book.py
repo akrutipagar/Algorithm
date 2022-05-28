@@ -55,7 +55,7 @@ isInitialized = True
 print("done building recommendation engine")
 print("ready for recommendation engine")
 
-
+#method to get recommendations
 
 def getRecommendations(bookName):
     book_name_index = book_list.index(bookName)

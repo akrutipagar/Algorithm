@@ -67,7 +67,7 @@ def getRecommendations(bookName):
 
 
 
-@app.route("/rec",   methods=['GET', 'POST'])
+@app.route("/index",   methods=['GET', 'POST'])
 def rec():
     query = '' 
     if(request.method == "POST"):

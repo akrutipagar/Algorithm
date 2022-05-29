@@ -31,7 +31,7 @@ Machine Learning Library In Python
 REQUIREMENTS
 
 
-Python-3,pip,virtualenv
+Python-3,pip,virtualenv,flask,pandas,numpy,Ipython,requests.
 
 
 

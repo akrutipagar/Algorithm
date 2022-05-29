@@ -54,7 +54,7 @@ STEPS FOR SET-UP
 
 8)http:// address will be displayed 
 
-9)Copy address and add /rec at the end and run
+9)Copy address and add /rec at the end and run   (http://127.0.0.1:5000/rec)
 
 Important:
 Change the csv path in python code while reading the files into code else it will give error.

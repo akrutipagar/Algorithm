@@ -1,11 +1,21 @@
+
+
 from flask import Flask, request, render_template
 import os
 
-# setting up template directory
+#@author akruti pagar
+#@version 1.0 , 26/05/2022
+
+
+# Following code sets up template directory
+
 TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=TEMPLATE_DIR)
 #app = Flask(__name__)
+
+
+# import python libraries 
 
 import pandas as pd
 import numpy as np
@@ -19,8 +29,6 @@ from sklearn.decomposition import TruncatedSVD
 
 
 
-
-
 @app.route("/")
 def hello():
 
@@ -30,13 +38,16 @@ def hello():
     return TEMPLATE_DIR
 
 
-
+# Reading the .csv files
 
 books_df = pd.read_csv(r"C:\Users\admin\Desktop\recommendation_engine_project\templates\data_Set\books.csv")
 ratings_df = pd.read_csv(r"C:\Users\admin\Desktop\recommendation_engine_project\templates\data_Set\ratings_algorithm.csv", encoding='UTF-8',  dtype={'user_id': int,'book_id':int, 'rating':int} )
+
+# Cleaning & Merging Data
 books_df_2 = books_df[['original_title','authors']]
 combined_books_df = pd.merge(ratings_df, books_df, on='book_id')
-#creating pivot table
+
+# Creating pivot table
 ct_df = combined_books_df.pivot_table(values='rating', index='user_id', columns='original_title', fill_value=0)
 X = ct_df.values.T
 

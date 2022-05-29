@@ -56,6 +56,9 @@ STEPS FOR SET-UP
 
 9)Copy address and add /rec at the end and run
 
+Important:
+Change the csv path in python code while reading the files into code else it will give error.
+
 
 
 
